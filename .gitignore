@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Ambientes Virtuais do Python
+venv/
+.venv/
+
+# Arquivos de Configuração de Editor/IDE
+.vscode/
+.idea/
+
+# Arquivos de Cache e Compilados do Python
+__pycache__/
+*.pyc
+
+# Arquivos de Sistema Operacional (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Arquivos de Ambiente - NUNCA ENVIE SUAS SENHAS PARA O GITHUB!
+.env
+*.env
+.env.*
+
+# Pastas de dados e cache de nossas ferramentas
+# Essencial para não enviar gigabytes de dados desnecessários
+n8n_data/
+supabase/
